@@ -21,6 +21,7 @@
             background-color: white;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
+            text-align: center;
         }
 
         .story img {
@@ -29,23 +30,33 @@
             border-radius: 8px;
             margin-top: 20px;
         }
+
+        video {
+            width: 100%;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 315px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- Link ảnh minh họa đầu tiên -->
+        <h2>Hình Ảnh Minh Họa</h2>
         <img src="VIT.jpg" alt="Ảnh 1">
-
-        <!-- Link ảnh minh họa thứ hai -->
         <img src="XAM.jpg" alt="Ảnh 2">
-
-        <!-- Thêm nhiều ảnh nếu cần -->
         <img src="xam2.jpg" alt="Ảnh 3">
-        <video width="100%" controls>
-            <source src="MEO.mp4" type="video1">
+
+        <h2>Video Cục Bộ</h2>
+        <video controls>
+            <source src="MEO.mp4" type="video/mp4">
             Trình duyệt của bạn không hỗ trợ video.
-        </video>
-        
+        </video>>
     </div>
 </body>
 </html>

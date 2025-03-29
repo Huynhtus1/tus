@@ -34,13 +34,18 @@
 <body>
     <div class="container">
         <!-- Link ảnh minh họa đầu tiên -->
-        <img src="doraemon.jpg" alt="Ảnh 1">
+        <img src="VIT.jpg" alt="Ảnh 1">
 
         <!-- Link ảnh minh họa thứ hai -->
-        <img src="meo.jpg" alt="Ảnh 2">
+        <img src="XAM.jpg" alt="Ảnh 2">
 
         <!-- Thêm nhiều ảnh nếu cần -->
-        <img src="th.jpg" alt="Ảnh 3">
+        <img src="xam2.jpg" alt="Ảnh 3">
+        <video width="100%" controls>
+            <source src="MEO.mp4" type="video1">
+            Trình duyệt của bạn không hỗ trợ video.
+        </video>
+        
     </div>
 </body>
 </html>
